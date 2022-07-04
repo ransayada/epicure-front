@@ -1,9 +1,6 @@
 import styled from 'styled-components';
 
 export const MyFooterContainer = styled.div`
-    position: fixed;
-    bottom: 0;
-
     height: 20vh;
     width: 100%;
     display: flex;

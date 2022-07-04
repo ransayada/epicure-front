@@ -104,7 +104,7 @@ export const MyHeader: React.FC = () => {
             </MyHeaderContainer>
             {isMenuOpen && <Menu />}
             {isSearchOpen && <Search />}
-            {isLoginOpen && <div>login is open</div>}
+            {isLoginOpen && <div></div>}
             {isBagOpen && <Bag />}
         </>
     );
