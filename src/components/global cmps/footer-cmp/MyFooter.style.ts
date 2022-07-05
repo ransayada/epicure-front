@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const MyFooterContainer = styled.div`
+
     height: 20vh;
     width: 100%;
     display: flex;
@@ -13,6 +14,8 @@ export const MyFooterContainer = styled.div`
 `;
 
 export const MenuBar = styled.div`
+    margin-top: 6vh;
+
     font-family: 'Nunito', sans-serif;
     margin-left: 4%;
     font-style: normal;
