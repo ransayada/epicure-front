@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { PopularRestaurantContainer, Title, GridSlickContainer, LinkContainer, MyImage } from './PopularRestaurant.style';
+import { PopularRestaurantContainer, Title, GridSlickContainer, LinkContainer } from './PopularRestaurant.style';
 import { default as doubleArrow } from '../../../assets/home-page-images/double-arrow.svg';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
-import { restaurants } from '../../../data/restaurants';
+import { restaurants } from '../../../data/restaurants'; //dummy data
 import { RestaurantCard } from './restaurant-card/RestaurantCard';
 
 export const PopularRestaurant: React.FC = () => {
@@ -43,16 +43,16 @@ export const PopularRestaurant: React.FC = () => {
                     <p>POPULAR RESTAURANTS EPICURE:</p>
                 </Title>
                 <GridSlickContainer>{getComponent()}</GridSlickContainer>
-                    <NavLink style={{ textDecoration: 'none' }} to="/restaurants">
-                <LinkContainer>
+                <NavLink style={{ textDecoration: 'none' }} to="/restaurants">
+                    <LinkContainer>
                         <div>
                             <p>All Restaurants</p>
                         </div>
                         <div>
                             <img src={doubleArrow} alt="arrow" />
                         </div>
-                </LinkContainer>
-                    </NavLink>
+                    </LinkContainer>
+                </NavLink>
             </PopularRestaurantContainer>
         </>
     );

@@ -21,15 +21,9 @@ export const LinkContainer = styled.div`
         color: #000000;
     }
 
-    img{
-        margin-bottom: -30% ;
-    width: 5vw;
-    height: 5vh;
+    img {
+        margin-bottom: -30%;
+        width: 5vw;
+        height: 5vh;
     }
-`;
-
-export const MyImage = styled.div`
-    border: 1px solid red;
-    width: 10vw;
-    height: 100%;
 `;
