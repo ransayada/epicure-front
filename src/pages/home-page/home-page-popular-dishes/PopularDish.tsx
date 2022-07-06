@@ -42,7 +42,7 @@ export const PopularDish: React.FC = () => {
                 <Title>
                     <p>POPULAR DISHES EPICURE:</p>
                 </Title>
-                <GridSlickContainer>{getComponent()}</GridSlickContainer>
+                <GridSlickContainer>{dishes.length}</GridSlickContainer>
                 <NavLink style={{ textDecoration: 'none' }} to="/restaurants">
                     <LinkContainer>
                         <div>

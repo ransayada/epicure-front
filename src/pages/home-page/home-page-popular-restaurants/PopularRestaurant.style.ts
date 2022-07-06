@@ -6,7 +6,7 @@ export const PopularRestaurantContainer = styled.div`
     flex-direction: column;
     align-items: flex-start;
     height: 50vh;
-    width: 100%;
+    width: 100vw;
 `;
 
 export const Title = styled.div``;

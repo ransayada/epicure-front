@@ -6,6 +6,7 @@ import { PopularDish } from './home-page-popular-dishes/PopularDish';
 import { OurIcons } from './home-page-our-icons/OurIcons';
 import { ChefOfTheWeek } from './home-page-chef-of-the-week/ChefOfTheWeek';
 import { AboutUs } from './home-page-about-us/AboutUs';
+import {ChefOfTheWeekRest} from './home-page-chef-of-the-week-rests/ChefOfTheWeekRest';
 
 export const HomePage: React.FC = () => {
     return (
@@ -14,9 +15,10 @@ export const HomePage: React.FC = () => {
                 <Hero />
                 <PopularRestaurant />
                 <PopularDish />
-                <OurIcons></OurIcons>
-                <ChefOfTheWeek></ChefOfTheWeek>
-                <AboutUs></AboutUs>
+                <OurIcons />
+                <ChefOfTheWeek />
+                <ChefOfTheWeekRest />
+                <AboutUs />
             </HomePageContainer>
         </>
     );
